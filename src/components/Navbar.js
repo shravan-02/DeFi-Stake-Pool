@@ -5,15 +5,15 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+      <nav className="navbar navbar-dark fixed-top flex-md-nowrap p-20 shadow" style={{background: "#000000"}}>
         <a
           className="navbar-brand col-sm-3 col-md-2 mr-0"
-          href="http://www.dappuniversity.com/bootcamp"
+          href="https://shravan-02.github.io/PortfolioWebsite/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={farmer} width="30" height="30" className="d-inline-block align-top" alt="" />
-          &nbsp; DApp Token Farm
+          &nbsp; Shra1 Stake Pool
         </a>
 
         <ul className="navbar-nav px-3">

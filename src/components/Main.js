@@ -17,7 +17,7 @@ class Main extends Component {
           <tbody>
             <tr>
               <td>{window.web3.utils.fromWei(this.props.stakingBalance, 'Ether')} mDAI</td>
-              <td>{window.web3.utils.fromWei(this.props.dappTokenBalance, 'Ether')} DAPP</td>
+              <td>{window.web3.utils.fromWei(this.props.dappTokenBalance, 'Ether')} ShravCoin</td>
             </tr>
           </tbody>
         </table>
@@ -66,8 +66,12 @@ class Main extends Component {
               </button>
           </div>
         </div>
-
+            <div style={{textAlign: "center"}}>
+                Reload the Page after Staking/Unstaking<br></br>Made by Shravan with the help of <a href="https://www.youtube.com/watch?v=CgXQC4dbGUE"> 
+                  Dapp University </a>
+            </div>
       </div>
+
     );
   }
 }
