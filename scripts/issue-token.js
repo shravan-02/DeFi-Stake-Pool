@@ -1,3 +1,4 @@
+//For moderators to issue rewards for staking 
 const TokenFarm = artifacts.require('TokenFarm')
 
 module.exports = async function(callback) {
